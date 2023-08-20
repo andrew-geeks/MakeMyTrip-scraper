@@ -1,3 +1,17 @@
+# Script for scraping hotel data of any given city!
+# Data scraping is taking place through chromedriver(replace chromedriver.exe file if outdated). Chrome browser should be available in your system.
+
+
+# -- STEPS TO FOLLOW --
+# Step1: Go to https://www.makemytrip.com/hotels
+# Step2: Select your desired city and checkin-checkout dates. Click Search. Then copy the URL and paste below into the MMT_LINK variable.
+# Step3: Create a CSV file based on the given sample csv file (dont misplace the headers in the csv). Place its path in the CSV_PATH variable.
+# Step4: Then run the script. Do not run the script in --headless mode, as it will create consequences during data extraction.
+
+# - Some datasets have created by me(find it in hotel_datasets) for illustration purposes.
+# - open an issue, if any problem arises, I will try to solve it!
+
+
 import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -9,7 +23,6 @@ chrome_options = Options()
 
 
 options = [
-    #"--headless"
     "--disable-gpu",
     "--window-size=1920,1200",
     "--ignore-certificate-errors",
@@ -22,7 +35,18 @@ for option in options:
 
 driver = webdriver.Chrome(options=chrome_options,executable_path='chromedriver.exe')
 
-driver.get("https://www.makemytrip.com/hotels/hotel-listing/?checkin=08202023&checkout=08212023&locusId=CTCCU&locusType=city&city=CTCCU&country=IN&searchText=Kolkata&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city&rsc=1e2e0e")
+
+# Add the browser url below after selecting city and dates.
+# example link: https://www.makemytrip.com/hotels/hotel-listing/?checkin=08212023&city=CTCCU&checkout=08222023&roomStayQualifier=2e0e&locusId=CTCCU&country=IN&locusType=city&searchText=Kolkata&regionNearByExp=3&rsc=1e2e0e
+
+MMT_LINK = "" 
+
+# Add the path were the CSV file is present(below), so that the scraped data can be saved. 
+# Note: First create the CSV file based on the sample dataset given before running the script, so that you wont fall into any trouble!
+
+CSV_PATH = ""
+
+driver.get(MMT_LINK)
 time.sleep(6)
 print("6 sec over")
 
@@ -90,7 +114,7 @@ for i in range(0,101):
     
     #csv
     data=[[hname.text,rating,rating_desc,review_count,s_rating,location,landmark,dist_landmark,price.text[2:],tax]]
-    with open('kolkata.csv','a',newline='') as file:
+    with open(CSV_PATH,'a',newline='') as file:
                 writer=csv.writer(file)
                 writer.writerows(data)
     time.sleep(2)
