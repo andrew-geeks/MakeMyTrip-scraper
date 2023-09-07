@@ -1,0 +1,119 @@
+.future-getaways {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.bottom-nav-link div {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.future-getaways-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bottom-nav-link div button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  height: 40px;
+}
+
+.bottom-nav-link div button:hover {
+  background-color: rgb(241, 239, 239);
+  border-radius: 5px;
+}
+
+.loctaions-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location-nav-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-nav-link-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-city {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.location-nav-link-item span {
+  cursor: pointer;
+}
+
+.show-more {
+  text-decoration: underline;
+}
+
+.footer {
+  height: 450px;
+  background-color: rgb(241, 238, 238);
+}
+.footer-item {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.location-nav-link {
+  margin-top: 50px;
+}
+
+.location-nav-link-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-nav-link-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-link-item span {
+  margin-top: 20px;
+}
+
+.footer-nav-link-item span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+hr {
+  margin: 50px;
+}
+
+.copyright-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.languange-currency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.languange-currency div {
+  margin-right: 45px;
+}
+
+.languange-currency img {
+  width: 20px;
+  margin-right: 20px;
+}

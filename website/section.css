@@ -1,0 +1,282 @@
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  /* background: url("happyhome.jpg") no-repeat center; */
+  width: 100%;
+  height: 1200px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  text-align: center;
+}
+
+.bg-image {
+  width: 90%;
+  border-radius: 10px;
+  justify-content: center;
+  position: absolute;
+  bottom: 40%;
+}
+
+.image-text-1 {
+  position: absolute;
+  top: 40%;
+}
+
+.not-sure {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.flex-btn {
+  width: 170px;
+  height: 60px;
+  background-color: white;
+  border-radius: 60px;
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.airBnB-gift-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.gift-card-image {
+  width: 90%;
+  border-radius: 10px;
+  justify-content: center;
+  position: absolute;
+  bottom: 50%;
+}
+
+.image-text-2 {
+  position: absolute;
+  left: 80px;
+}
+
+.intro {
+  color: black;
+  font-size: 16px;
+  margin: 0px 0px;
+}
+
+.airbnb {
+  color: black;
+  font-size: 70px;
+  margin: 0px 0px;
+  font-weight: 300;
+}
+
+.intro {
+  font-size: 22px;
+}
+
+.shop-now-btn {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.inspiration-trip {
+  width: 100%;
+}
+
+.inspiration-trip-title {
+  margin-left: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.inspiration-trip-location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.city-detail {
+  flex: 1;
+  background-color: tomato;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 250px;
+}
+
+.city-detail-1 {
+  flex: 1;
+  background-color: rgb(255, 71, 178);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 250px;
+}
+
+.city-detail-2 {
+  flex: 1;
+  background-color: rgb(230, 39, 5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 250px;
+}
+
+.city-detail-3 {
+  flex: 1;
+  background-color: rgb(161, 32, 9);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 250px;
+}
+
+.city-name {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.city-distance {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.discover-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.discover-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discover-image-1 {
+  width: 620px;
+  border-radius: 10px;
+}
+
+.discover-image-2 {
+  width: 620px;
+  height: 415px;
+  border-radius: 10px;
+}
+
+.experiences {
+  margin-left: 30px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 400px;
+}
+
+.experience-btn {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 380px;
+  margin-left: 30px;
+}
+
+.online-experience-btn {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 380px;
+  margin-left: 30px;
+}
+
+.bottom-image-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-image {
+  width: 100%;
+  justify-content: center;
+  height: 700px;
+  position: absolute;
+}
+
+.bottom-image-text {
+  position: absolute;
+  left: 100px;
+}
+
+.question {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ask-superhost {
+  border: none;
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 450;
+  margin-top: 300px;
+  cursor: pointer;
+}

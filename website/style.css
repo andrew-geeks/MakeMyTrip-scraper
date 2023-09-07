@@ -1,0 +1,192 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 60px;
+}
+
+.navLink {
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.navLink li {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.navLink li a {
+  text-decoration: none;
+  color: white;
+}
+
+.host {
+  display: flex;
+  list-style: none;
+  margin-right: 60px;
+}
+
+.host li {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.host li a {
+  text-decoration: none;
+  color: white;
+}
+
+.web-icon {
+  width: 15px;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 40px;
+  border-radius: 40%;
+  margin-top: 10px;
+}
+
+.user-icon:hover .dropdown-content {
+  display: block;
+}
+
+.menu-icon {
+  width: 20px;
+}
+.icon {
+  width: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  margin-top: 100px;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding-top: 30px;
+}
+
+.dropdown-content li {
+  list-style: none;
+}
+
+.dropdown-content li a {
+  color: black;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.sub-header {
+  background-color: black;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  width: 700px;
+  height: 60px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px 10px -15px 0px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.search {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(193, 211, 194);
+
+  border-radius: 50%;
+}
+.search-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.location {
+  margin-left: 20px;
+  border-right: 1px solid rgb(231, 236, 236);
+  height: 100%;
+}
+
+.location:hover {
+  background-color: rgb(207, 203, 203);
+  border-radius: 20px;
+}
+
+.check-in {
+  margin-right: 20px;
+  border-right: 1px solid rgb(231, 236, 236);
+  height: 100%;
+}
+
+.check-in:hover {
+  background-color: rgb(207, 203, 203);
+  border-radius: 20px;
+}
+
+.check-out {
+  margin-right: 20px;
+  border-right: 1px solid rgb(231, 236, 236);
+  height: 100%;
+}
+
+.check-out:hover {
+  background-color: rgb(207, 203, 203);
+  border-radius: 20px;
+}
+
+.guests {
+  margin-left: 20px;
+  height: 100%;
+}
+
+.guests:hover {
+  background-color: rgb(207, 203, 203);
+  border-radius: 20px;
+}
+
+body {
+  background-size: cover;
+  background-image: url("max-fuchs-Nm6ojlDO-5c-unsplash.jpg");
+}

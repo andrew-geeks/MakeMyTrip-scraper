@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="hotel_logo.png" alt="Hotel Logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Rooms Page with Image Gallery: -->
+
+    <div id="rooms" class="content">
+    <h2>Rooms</h2>
+    <div class="room-card">
+        <img src="room1.jpg" alt="Room 1">
+        <h3>Deluxe Room</h3>
+        <p>Spacious deluxe room with a king-size bed and ocean view.</p>
+        <a href="#">Book Now</a>
+    </div>
+</div>
+
+<!-- Reservation Form: -->
+
+<div id="reservation" class="content">
+    <h2>Reservation</h2>
+    <form>
+        <label for="check-in">Check-In Date:</label>
+        <input type="date" id="check-in" required>
+        <label for="check-out">Check-Out Date:</label>
+        <input type="date" id="check-out" required>
+        <label for="room-type">Select Room Type:</label>
+        <select id="room-type" required>
+            <option value="deluxe">Deluxe Room</option>
+            <option value="suite">Suite</option>
+        </select>
+        <input type="submit" value="Submit Reservation">
+    </form>
+</div>
+
+
+
+
+</body>
+</html>
