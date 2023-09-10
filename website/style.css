@@ -77,12 +77,14 @@ body {
 
 .dropdown-content {
   display: none;
-  margin-top: 100px;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
+  margin-top: 50px;
+  font-size: small;
+  position:absolute;
+  background-color: wheat;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding-top: 30px;
+  padding-top: 25px;
+  border-radius: 100%;
 }
 
 .dropdown-content li {
