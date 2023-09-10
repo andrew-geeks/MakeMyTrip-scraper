@@ -1,4 +1,4 @@
-# ✈️🏨🚈MakeMyTrip Scrapper🤖
+# ✈️🏨🚈MakeMyTrip Scraper🤖
  Python script (selenium) to scrape hotel & flight data. All scraped data are saved to CSV files. This data can be used for creating great visualizations and for modelling purposes. 
  
  Sample scrapped data can be found in respective dataset folders.
