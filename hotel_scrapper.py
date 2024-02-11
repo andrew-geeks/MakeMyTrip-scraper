@@ -17,7 +17,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
+import chromedriver_autoinstaller
 
+
+#chromedriver_autoinstaller.install()
 chrome_options = Options()
 
 
@@ -33,6 +36,7 @@ options = [
 for option in options:
     chrome_options.add_argument(option)
 
+#driver = webdriver.Chrome(options=chrome_options)
 driver = webdriver.Chrome(options=chrome_options,executable_path='chromedriver.exe')
 
 
@@ -44,7 +48,7 @@ MMT_LINK = ""
 # Add the path were the CSV file is present(below), so that the scraped data can be saved. 
 # Note: First create the CSV file based on the sample dataset given before running the script, so that you wont fall into any trouble!
 
-CSV_PATH = ""
+CSV_PATH = ''
 
 driver.get(MMT_LINK)
 time.sleep(6)
