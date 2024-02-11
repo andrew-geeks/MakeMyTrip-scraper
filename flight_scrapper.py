@@ -1,3 +1,11 @@
+# READ INSTRUCTIONS CLEARLY BEFORE PROCEEDING
+# S1: Go to https://www.makemytrip.com/flights/. Select departing airport/city & arriving airport/city and departure date. Note: Do not set RETURN DATE.
+# S2: Click Search. After the finishes loading, copy the URL present on the browser and paste in the URL variable below.
+# S3: create a CSV file, according to the sample datset given(do not forget to add columns). copy the CSV path and paste in the CSV_PATH variable.
+# S4: 
+
+
+
 import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -24,10 +32,12 @@ for option in options:
 
 driver = webdriver.Chrome(options=chrome_options,executable_path='chromedriver.exe')
 
-driver.get("https://www.makemytrip.com/flight/search?tripType=O&itinerary=HYD-DEL-31/08/2023&paxType=A-1_C-0_I-0&cabinClass=E&sTime=1693316463663&forwardFlowRequired=true&mpo=&semType=&intl=false")
+URL = ""
+
+driver.get(URL)
 time.sleep(25)
 
-CSV_PATH = "flight_datasets/flight_data_DEL_HYD.csv"
+CSV_PATH = ""
 
 COUNT = 50
 
