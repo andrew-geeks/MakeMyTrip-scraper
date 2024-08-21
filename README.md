@@ -10,7 +10,7 @@
  > Chrome browser is necessary.
  ## 🏨Hotel data scrapping
  Here, data like price, star rating, location, review count, etc are scraped.
- - Go to hotel data scrapping [script](https://github.com/andrew-geeks/MakeMyTrip-scrapper/blob/main/hotel_scrapper.py).
+ - Go to hotel data scraping [script](https://github.com/andrew-geeks/MakeMyTrip-scrapper/blob/main/hotel_scrapper.py).
  - Open the file and read the instructions clearly. Remember, create the CSV file according to the given sample csv [file](https://github.com/andrew-geeks/MakeMyTrip-scrapper/blob/main/sample_dataset.csv), before running the script.
  - Run the script.
 
